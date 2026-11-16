@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StudySphere | Maths & Physics Resources</title>
+    <meta
+      name="description"
+      content="A study website for mathematics and physics resources, textbooks, and guided learning materials."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container nav">
+        <div class="brand">
+          <span class="brand-mark">S</span>
+          <span>StudySphere</span>
+        </div>
+        <nav>
+          <a href="#resources">Resources</a>
+          <a href="#study-plans">Study Plans</a>
+          <a href="#about">About</a>
+        </nav>
+        <button class="nav-button">Explore</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Maths & Physics study hub</p>
+            <h1>Learn smarter with the best textbooks and problem-solving resources.</h1>
+            <p class="subtitle">
+              Explore curated mathematics and physics resources for school, university,
+              and self-study. Search, filter, and organize everything in one place.
+            </p>
+            <div class="cta-row">
+              <a href="#resources" class="primary-btn">Browse resources</a>
+              <a href="#study-plans" class="secondary-btn">Study plans</a>
+            </div>
+            <div class="stat-row">
+              <div>
+                <strong>40+</strong>
+                <span>Resources</span>
+              </div>
+              <div>
+                <strong>2</strong>
+                <span>Core subjects</span>
+              </div>
+              <div>
+                <strong>100%</strong>
+                <span>Study-focused</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-panel">
+            <div class="panel-card">
+              <p>Featured track</p>
+              <h3>Mathematics & Physics Essentials</h3>
+              <ul>
+                <li>Calculus and algebra mastery</li>
+                <li>Mechanics and electromagnetism</li>
+                <li>Problem-solving practice</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="resources" class="resources-section">
+        <div class="container">
+          <div class="section-head">
+            <div>
+              <p class="eyebrow">Resource library</p>
+              <h2>Maths and Physics resources</h2>
+            </div>
+            <div class="search-box">
+              <input id="searchInput" type="search" placeholder="Search books, topics, or subjects..." aria-label="Search resources" />
+            </div>
+          </div>
+
+          <div class="filter-bar" id="filterBar" aria-label="Filter by subject">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="mathematics">Mathematics</button>
+            <button class="filter-btn" data-filter="physics">Physics</button>
+          </div>
+
+          <div id="resourceGrid" class="resource-grid" aria-live="polite"></div>
+        </div>
+      </section>
+
+      <section id="study-plans" class="plans-section">
+        <div class="container">
+          <p class="eyebrow">Study plans</p>
+          <h2>Structured learning paths</h2>
+          <div class="plan-grid">
+            <article class="plan-card">
+              <span class="plan-tag">Foundation</span>
+              <h3>Core Maths</h3>
+              <ul>
+                <li>Algebra and functions</li>
+                <li>Geometry and trigonometry</li>
+                <li>Calculus basics</li>
+              </ul>
+            </article>
+            <article class="plan-card">
+              <span class="plan-tag">Advanced</span>
+              <h3>Physics Fundamentals</h3>
+              <ul>
+                <li>Mechanics</li>
+                <li>Electricity and magnetism</li>
+                <li>Waves and optics</li>
+              </ul>
+            </article>
+            <article class="plan-card">
+              <span class="plan-tag">Exam prep</span>
+              <h3>Problem solving</h3>
+              <ul>
+                <li>Timed practice</li>
+                <li>Past papers</li>
+                <li>Concept revision</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="about-section">
+        <div class="container about-box">
+          <div>
+            <p class="eyebrow">Why this platform</p>
+            <h2>Everything students need in one place.</h2>
+          </div>
+          <p>
+            StudySphere brings together textbooks, notes, and practice resources for mathematics
+            and physics so students can revise quickly, track progress, and keep learning with
+            confidence.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <p>© 2026 StudySphere</p>
+        <p>Built for focused learning and better revision.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
